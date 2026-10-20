@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verónica Orellana B. | Diseñadora gráfica e ilustradora en Santiago, Chile</title>
+  <meta name="description" content="Portafolio de Verónica Orellana B., diseñadora gráfica e ilustradora digital de Santiago de Chile. Branding, identidad visual y piezas para eventos de videojuegos.">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Datos estructurados Schema.org (JSON-LD): persona, obras y eventos de ejemplo -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "#veronica",
+        "name": "Verónica Orellana B.",
+        "jobTitle": "Diseñadora gráfica e ilustradora",
+        "description": "Diseñadora gráfica e ilustradora digital con encargos nacionales e internacionales, especializada en branding y eventos de videojuegos.",
+        "address": { "@type": "PostalAddress", "addressLocality": "Santiago", "addressCountry": "CL" },
+        "alumniOf": [
+          { "@type": "CollegeOrUniversity", "name": "Pontificia Universidad Católica de Chile" },
+          { "@type": "EducationalOrganization", "name": "Sofofa – Talento Digital" }
+        ],
+        "knowsLanguage": ["es", "en"],
+        "knowsAbout": ["Diseño de logotipos", "Branding", "Ilustración digital", "Diseño UX/UI"],
+        "worksFor": { "@type": "Organization", "name": "Cosmic Haze Studio" }
+      },
+      {
+        "@type": "VisualArtwork",
+        "name": "Identidad visual VGChile",
+        "creator": { "@id": "#veronica" },
+        "artform": "Diseño gráfico",
+        "dateCreated": "2024"
+      },
+      {
+        "@type": "VisualArtwork",
+        "name": "Identidad visual Festigame",
+        "creator": { "@id": "#veronica" },
+        "artform": "Diseño gráfico",
+        "dateCreated": "2019"
+      },
+      {
+        "@type": "VisualArtwork",
+        "name": "Ilustraciones infográficas",
+        "creator": { "@id": "#veronica" },
+        "artform": "Ilustración vectorial isométrica",
+        "dateCreated": "2023"
+      },
+      {
+        "@type": "ExhibitionEvent",
+        "name": "Muestra de portafolio (evento de ejemplo)",
+        "startDate": "2026-12-05",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": { "@type": "Place", "name": "Lugar por confirmar", "address": "Santiago, Chile" },
+        "performer": { "@id": "#veronica" }
+      },
+      {
+        "@type": "Event",
+        "name": "Charla de diseño para videojuegos (evento de ejemplo)",
+        "startDate": "2027-01-16",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": { "@type": "VirtualLocation", "url": "https://example.com" },
+        "performer": { "@id": "#veronica" }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Enlace para saltar la navegación (lectores de pantalla y teclado) -->
+  <a class="saltar" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="barra">
+    <p class="marca">Cosmic Haze Studio</p>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#trayectoria">Trayectoria</a></li>
+        <li><a href="#presentaciones">Próximas presentaciones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- Portada -->
+    <section id="inicio" class="pantalla portada" aria-labelledby="titulo-inicio">
+      <p class="sobretitulo">Bienvenida a mi portafolio</p>
+      <h1 id="titulo-inicio">Verónica Orellana B.</h1>
+      <p class="subtitulo">Diseñadora gráfica e ilustradora digital · Santiago, Chile</p>
+      <a class="boton" href="#sobre-mi">Conoce mi trabajo</a>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="pantalla" aria-labelledby="titulo-sobre-mi">
+      <h2 id="titulo-sobre-mi">Sobre mí</h2>
+      <div class="dos-columnas">
+        <article>
+          <p>El diseño gráfico ha sido parte de mi vida desde la infancia. Me he enfocado en redes sociales, imagen corporativa y branding, y también trabajo como ilustradora digital con encargos nacionales e internacionales.</p>
+          <p>Mis últimos trabajos han sido la imagen de importantes eventos del mundo de los videojuegos en Chile.</p>
+          <h3>Idiomas</h3>
+          <ul>
+            <li>Español (nativo)</li>
+            <li>Inglés (avanzado)</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Habilidades</h3>
+          <ul class="etiquetas">
+            <li>Diseño de logotipos</li>
+            <li>Ilustración digital y vectorial</li>
+            <li>Branding e identidad de marca</li>
+            <li>Redes sociales</li>
+            <li>Diseño UX/UI</li>
+            <li>Prototipado digital</li>
+          </ul>
+          <h3>Software</h3>
+          <ul class="etiquetas">
+            <li>Illustrator</li>
+            <li>Photoshop</li>
+            <li>Figma</li>
+            <li>Premiere</li>
+            <li>InDesign</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Trayectoria -->
+    <section id="trayectoria" class="pantalla" aria-labelledby="titulo-trayectoria">
+      <h2 id="titulo-trayectoria">Trayectoria</h2>
+      <ol class="linea-tiempo">
+        <li>
+          <h3>2006 – 2010</h3>
+          <p>Licenciatura en Diseño, Pontificia Universidad Católica de Chile.</p>
+        </li>
+        <li>
+          <h3>2019</h3>
+          <p>Identidad visual y piezas gráficas para el evento Festigame.</p>
+        </li>
+        <li>
+          <h3>2023</h3>
+          <p>Bootcamp de Diseño UX/UI, Sofofa – Talento Digital. Ilustraciones infográficas isométricas.</p>
+        </li>
+        <li>
+          <h3>2024</h3>
+          <p>Imagen de VGChile, VGCWeek Chile y VGX – Video Game Xperience.</p>
+        </li>
+      </ol>
+
+      <h3 class="subseccion">Proyectos destacados</h3>
+      <div class="galeria">
+        <figure>
+          <div class="obra obra-1" role="img" aria-label="Composición abstracta en tonos morado y azul que representa la identidad visual de VGChile"></div>
+          <figcaption>VGChile · Identidad visual</figcaption>
+        </figure>
+        <figure>
+          <div class="obra obra-2" role="img" aria-label="Composición abstracta en tonos rosa y violeta que representa la identidad del evento Festigame"></div>
+          <figcaption>Festigame · Eventos</figcaption>
+        </figure>
+        <figure>
+          <div class="obra obra-3" role="img" aria-label="Composición abstracta en tonos celeste y azul que representa ilustraciones infográficas isométricas"></div>
+          <figcaption>Ilustraciones infográficas</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Próximas presentaciones -->
+    <section id="presentaciones" class="pantalla" aria-labelledby="titulo-presentaciones">
+      <h2 id="titulo-presentaciones">Próximas presentaciones</h2>
+      <p class="aviso">Fechas y lugares de ejemplo, a modo de demostración.</p>
+      <ul class="eventos">
+        <li>
+          <article>
+            <h3>Muestra de portafolio</h3>
+            <p><time datetime="2026-12-05">5 de diciembre de 2026</time> · Santiago, Chile (lugar por confirmar)</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Charla de diseño para videojuegos</h3>
+            <p><time datetime="2027-01-16">16 de enero de 2027</time> · En línea</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Verónica Orellana B. · Cosmic Haze Studio · Santiago, Chile</p>
+  </footer>
+</body>
+</html>
